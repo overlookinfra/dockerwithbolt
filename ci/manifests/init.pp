@@ -1,4 +1,8 @@
-package { 'bolt':
-  ensure   => present,
-  provider => 'gem'
+package {
+  'ruby-dev':
+    ensure => latest
+    ;
+  'bolt':
+    ensure   => present,
+    provider => 'gem'
 }
