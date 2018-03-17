@@ -6,3 +6,8 @@ package {
     ensure   => present,
     provider => 'gem'
 }
+
+python::pip { 'cjc-manager':
+  ensure       => latest,
+  install_args => '-i https://artifactory.delivery.puppetlabs.net/artifactory/api/pypi/pypi__local'
+}
