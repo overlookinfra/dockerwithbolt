@@ -9,5 +9,5 @@ package {
 
 python::pip { 'cjc-manager':
   ensure       => latest,
-  install_args => '-i https://artifactory.delivery.puppetlabs.net/artifactory/api/pypi/pypi__local'
+  install_args => '-i https://artifactory.delivery.puppetlabs.net/artifactory/api/pypi/pypi__local/simple'
 }
