@@ -2,9 +2,9 @@ package {
   'ruby-dev':
     ensure => latest
     ;
-# 'bolt':
-#   ensure   => present,
-#   provider => 'gem'
+  'bolt':
+    ensure   => '0.17.2',
+    provider => 'gem'
 }
 
 python::pip {
