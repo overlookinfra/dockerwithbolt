@@ -3,8 +3,8 @@ package {
     ensure => latest
     ;
   'bolt':
-    ensure   => '0.17.2',
-    provider => 'gem'
+    ensure   => latest,
+    ;
 }
 
 python::pip {
