@@ -1,7 +1,7 @@
 package {
-  'ruby-dev':
-    ensure => latest
-    ;
+# 'ruby-dev':
+#   ensure => latest
+#   ;
   'bolt':
     ensure   => latest,
     ;
