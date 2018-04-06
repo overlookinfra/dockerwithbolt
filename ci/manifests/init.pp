@@ -38,4 +38,7 @@ python::pip {
   'cjc-manager':
     install_args => '-i https://artifactory.delivery.puppetlabs.net/artifactory/api/pypi/pypi__local/simple'
     ;
+  'pi2c':
+    install_args => '-i https://artifactory.delivery.puppetlabs.net/artifactory/api/pypi/pypi__local/simple'
+    ;
 }
