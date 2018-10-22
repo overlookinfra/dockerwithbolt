@@ -1,10 +1,5 @@
-package {
-# 'ruby-dev':
-#   ensure => latest
-#   ;
-  'bolt':
-    ensure   => latest,
-    ;
+package { 'bolt':
+  ensure   => latest,
 }
 
 python::pip {
