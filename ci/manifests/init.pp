@@ -1,5 +1,6 @@
 package { 'bolt':
   ensure   => latest,
+  provider => 'gem',
 }
 
 python::pip {
