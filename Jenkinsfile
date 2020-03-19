@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-              node('worker:maven:3.3.3') {
+              node('artifactory.delivery.puppetlabs.net/dev-services/node-go-java') {
                 sh 'echo "hello world"'
                 sh 'ls ci'
               }
