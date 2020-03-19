@@ -9,6 +9,7 @@ pipeline {
               node('worker:maven:3.3.3') {
                 sh 'echo "hello world"'
                 sh 'ls ci'
+              }
             }
         }
     }
